@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Good morning Jacob</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Dashboard</h2>
+        <div class="toggle"></div>
+      </header>
+      <video src="Explore1.mp4" muted autoplay loop></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Good Morning</h2>
+        <h3>Jacob</h3>
+        <p>
+          if you know the enemy and know yourself you need not fear 100 battles
+          - sunzu stratergy without tactics is the slowest route to victory
+          tactics without stratergy is the noise before defeat -sunzu
+        </p>
+        <a href="https://www.reddit.com">reddit</a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="https://canvas.endeavour.sa.edu.au"
+            ><img src="facebook.png" alt="https://canvas.endeavour.sa.edu.au"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.w3schools.com"
+            ><img src="twitter.png" alt="https://www.w3schools.com"
+          /></a>
+        </li>
+        <li>
+          <a href="https://jsfiddle.net"
+            ><img src="instagram.png" alt="https://jsfiddle.net"
+          /></a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li>
+          <a
+            href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi9kKGQmJz0AhU8IbcAHWyEDpgQPAgI"
+            >Home</a
+          >
+        </li>
+        <li><a href="opera://news">News</a></li>
+        <li><a href="https://www.youtube.com">Youtube</a></li>
+        <li><a href="https://canvas.endeavour.sa.edu.au">Canvas</a></li>
+        <li><a href="https://outlook.live.com/mail/0/inbox">Email</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
